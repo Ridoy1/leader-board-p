@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F3F1FF;
+}
+header{
+    background-color: blue;
+    
+}
+.head{
+    margin-right: 240px;
+    height: 84px;
+    padding-top: 22px;
+}
+.head img{
+    width: 50px;
+    margin-left: 40px;
+}
+.head ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+.head li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;  
+    margin-left: 40px;
+    
+}
+main{
+    width: 900px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+section{
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+.section-title{
+    margin-top: 20px;
+    color: blue;
+}
+
+.top-players, .blogs, .courses{
+    display: grid;
+    grid-gap:30px;
+    margin-top: 40px;
+    place-items: center;
+    margin-bottom: 20px;
+
+}
+.top-players, .courses{
+    grid-template-columns: repeat(3, 1fr);
+}
+.blogs{
+    grid-template-columns: repeat(2, 1fr);
+}
+.player, .blog{
+    display: flex;
+    align-items: center;
+}
+.thumbnail img{
+    width: 200px;
+    margin-right: 20px;
+}
+.player img{
+    width: 50px;
+    margin-right: 20px;
+}
+.course img{
+    width: 200px;
+}
+.course-info{
+    display: flex;
+    margin-top: 20px;
+}
+.ratings{
+    margin-right: 30px;
+}
+.filled{
+    color: gold;
+    font-size: 0.8em;
+}
+.unfilled{
+    color: lightgray;
+    font-size: 0.8em;
+}
